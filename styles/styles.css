@@ -7,7 +7,8 @@
 
 @font-face {
   font-family: miama;
-  src: url(../fonts/miama.regular.ttf); 
+  src: url(../fonts/miama.regular.ttf),
+       url(../fonts/miama.regular.otf); 
 }
 
 
