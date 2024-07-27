@@ -63,8 +63,8 @@
                 <p class="video-tut-des">Video Tutorial</p>
               </div>
 
-              <div class="video-tut-circle">
-                <span class="icon-play"></span>
+              <div class="video-tut-circle display-flex">
+                <span class="icon-play"><i class="fa-solid fa-play" style="color: #ffffff;"></i></span>
               </div>
             
             </div>
@@ -131,6 +131,94 @@
   
         <div class="run-extra-img"></div>
 
+      </div>
+
+    </section>
+    
+    <section class="bmi-container display-flex">
+
+      <div class="bmi-texts">
+        <h3 class="bmi-title">BMI Calculator</h3>
+        <p class="para">Body Mass Index is a simple calculation using a person's height and weight. The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared. A BMI of 25.0 or more is overweight, while the healthy range is 18.5 to 24.9.</p>
+      </div>
+
+      <div class="bmi-calculator display-flex">
+        
+        <div class="bmi-chart">
+          <h3 class="bmi-chart-title">BMI Calculator Chart</h3>
+          
+          <table class="chart-table">
+            
+            <thead class="thead">
+              <th>BMI</th>
+              <th>Weight Status</th>
+            </thead>
+
+            <tbody class="tbody">
+              
+              <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+              </tr>
+
+              <tr>
+                <td>18.5-24.9</td>
+                <td>Healthy</td>
+              </tr>
+
+              <tr>
+                <td>25.0-29.9</td>
+                <td>Overweight</td>
+              </tr>
+
+              <tr>
+                <td>30.0- and above</td>
+                <td>Obese</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+
+        <div class="bmi-calculate">
+          
+          <div class="calculate-texts">
+            <h3 class="calculate-title">Calculate your BMI</h3>
+            <p class="para">Enter the values and Calculate your BMI here!</p>
+          </div>
+
+          <div class="calculator display-flex">
+            
+            <form action="">
+              <div class="calculator-1">
+                <input class="inter-font" type="number" name="" id="" placeholder="Height/cm">
+                <input class="inter-font" type="number" name="" id="" placeholder="Weight/kg">
+              </div>
+              
+              <div class="calculator-2">
+                <input class="inter-font" type="number" name="" id="" placeholder="Age">
+                <select name="Gender" id="Gender">
+                  <option value="" class="placeholder-op" disabled selected>Gender</option>
+                  <option value="">Male</option>
+                  <option value="">Female</option>
+                </select>
+              </div>
+
+              <div class="calculator-3">
+                <select name="" id="">
+                  <option value="" class="placeholder-op" disabled selected>Select an activity factor</option>
+                  <option value="">Very active (7-10 hour of physical activity)</option>
+                  <option value="">Normal Active (2-3 hour of physical activity)</option>
+                  <option value="">No activity (about 1 hour of movement or none)</option>
+                </select>
+              </div>
+
+              <button class="btn-calculate">Calculate</button>
+            </form>
+
+          </div>
+        
+        </div>
       </div>
 
     </section>

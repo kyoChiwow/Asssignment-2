@@ -264,6 +264,13 @@ a{
   height: 40px;
   width: 40px;
   border-radius: 500px;
+  justify-content: center;
+  position: relative;
+}
+
+.icon-play{
+  position: absolute;
+  top: -400%;
 }
 /* Banner Ends */
 /* Header Ends Here */
@@ -378,6 +385,171 @@ a{
   background-size: 65vmax;
   border-radius: 18px;
 }
+/* Run Extra mile Ends here */
+
+/* BMI Calculator Starts here */
+
+.bmi-container{
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5.5rem;
+}
+
+.bmi-texts{
+  width: 40%;
+}
+
+.bmi-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.bmi-calculator{
+  background-color: rgba(34, 34, 34, 1);
+  width: 100%;
+  margin-top: 5.5rem;
+  justify-content: space-between;
+  padding-left: 13.125%;
+  padding-right: 13.125%;
+  padding-top: 3.6%;
+  padding-bottom: 3.6%;
+  gap: 10%;
+}
+
+.bmi-chart{
+  width: 30%;
+}
+
+.bmi-chart-title{
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 3.25rem;
+}
+
+.chart-table{
+  width: 100%;
+  
+}
+
+.chart-table, td, th{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+
+td, th{
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  text-align: left;
+}
+
+.thead{
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+.tbody{
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.calculate-texts > p{
+  margin-bottom: 2.2rem;
+}
+
+.calculate-title{
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.bmi-calculate{
+  width: 50%;
+}
+
+.calculator{
+  flex-direction: column;
+}
+
+.calculator-1{
+  margin-bottom: 1rem;
+}
+
+.calculator-1 > input{
+  width: 49%;
+  padding: 1.5%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+}
+
+.calculator-2{
+  margin-bottom: 1rem;
+}
+
+.calculator-2 > input{
+  width: 49%;
+  padding: 1.5%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+}
+
+
+.calculator-2 > select{
+  width: 49%;
+  padding: 1.5%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  color: rgba(255, 255, 255, 0.25);
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.calculator-3{
+  margin-bottom: 2.1rem;
+}
+
+.calculator-3 > select{
+  width: 98.5%;
+  padding: 1.5%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  color: rgba(255, 255, 255, 0.25);
+  font-family: Inter;
+  font-weight: 400;
+}
+
+.placeholder-op{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+select > option{
+  color: black;
+}
+
+.btn-calculate{
+  background-color: var(--light-orange);
+  border-radius: 42px;
+  padding: 1rem 2.5rem;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  text-wrap: nowrap;
+  width: 30%;
+}
+
 
 /* Responsive for smaller device */
 
@@ -473,6 +645,13 @@ a{
   .video-tut-circle{
     width: 30px;
     height: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-play{
+    position: absolute;
+    top: 15%;
   }
 
   .btn-club-small{
@@ -531,6 +710,10 @@ a{
 .habit-title{
   font-size: 4.58vw;
 }
+
+.habit-img{
+  width: 48.09vw;
+}
 /* Change your habit ends here */
 
 /* Run Extra Mile Starts here */
@@ -571,6 +754,74 @@ a{
 }
 /* Run Extra Mile Ends here */
 
+/* BMI Calculator Starts here */
+
+.bmi-texts{
+  width: 90%;
+}
+
+.bmi-title{
+  font-size: 8.18vw;
+}
+
+.bmi-calculator{
+  flex-direction: column;
+  padding-left: 4%;
+  padding-right: 4%;
+  gap: 2.8rem;
+}
+
+.bmi-chart{
+  width: 81vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.bmi-chart-title{
+  font-size: 4.5vw;
+}
+
+.bmi-calculate{
+  width: 100%;
+}
+
+.calculate-title{
+  font-size: 4.5vw;
+}
+
+.calculator-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-1 > input{
+  padding: 3%;
+}
+
+.calculator-2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-2 > input{
+  padding: 3%;
+}
+
+.calculator-2 > select{
+  padding: 3%;
+}
+
+.calculator-3 > select{
+  padding: 3.5%;
+  width: 99.2%;
+}
+
+.btn-calculate{
+  width: 53%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
 }
 
