@@ -559,14 +559,18 @@ select > option{
 
 .pricing-texts{
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 2rem;
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .pricing-title{
   font-size: 2.5rem;
   font-weight: 900;
   color: white;
+  margin-bottom: 1rem;
 }
 
 .pricing-cards{
@@ -682,6 +686,102 @@ hr{
   align-items: center;
   transform: scale(1.1);
 }
+/* Unique Section Ends here */
+
+
+/* Meet our team starts here */
+
+.team-container{
+  margin-top: 5.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-texts{
+  margin-bottom: 3.7rem;
+  width: 64%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.team-title{
+  font-size: 2.5vw;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.team-img-collage{
+  padding: 1.25rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  gap: 1.25rem;
+}
+
+.img-name{
+  font-size: 1.04vw;
+  font-weight: 900;
+  color: white;
+  margin-left: 1.1875rem;
+}
+
+.team-img-box{
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 18px;
+}
+
+.team-img-box > .para{
+  margin-bottom: 1rem;
+  margin-left: 1.1875rem;
+}
+
+
+.img-1{
+  background-image: url(../images/trainer1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-2{
+  background-image: url(../images/trainer2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-3{
+  background-image: url(../images/trainer3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-4{
+  background-image: url(../images/trainer4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-5{
+  background-image: url(../images/trainer5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img-6{
+  background-image: url(../images/trainer6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* Meet our team ends here */
 
 
 /* Responsive for smaller device */
@@ -962,8 +1062,20 @@ hr{
 
 /* Unique Section starts here */
 
+.pricing-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-texts{
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+
 .pricing-title{
-  font-size: 7.9vw;
+  font-size: 7.3vw;
 }
 
 .card-title{
@@ -992,6 +1104,7 @@ hr{
   padding-right: 4%;
   padding-top: 4%;
   padding-bottom: 4%;
+  width: 100%;
 }
 
 .oneday-card{
@@ -1010,6 +1123,32 @@ hr{
 .btn-box{
   margin-bottom: 1rem;
 }
+/* Unique Section Ends here */
+
+/* Meet our team starts here */
+
+.team-texts{
+  width: 80%;
+}
+
+.team-title{
+  font-size: 8.14vw;
+}
+
+.team-img-collage{
+  width: 92%;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-img-box{
+  height: 50vh;
+}
+
+.img-name{
+  font-size: 5.1vw;
+}
+/* Meet our team ends here */
 
 }
 
