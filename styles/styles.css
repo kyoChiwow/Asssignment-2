@@ -549,6 +549,139 @@ select > option{
   text-wrap: nowrap;
   width: 30%;
 }
+/* BMI Calculator Ends here */
+
+/* Unique Section Starts here */
+
+.pricing-container{
+  margin-top: 4rem;
+}
+
+.pricing-texts{
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+}
+
+.pricing-title{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+}
+
+.pricing-cards{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(34, 34, 34, 1);
+  justify-content: center;
+  gap: 5rem;
+}
+
+.oneday-card, .monthly-card, .yearly-card{
+  width: 33%;
+}
+
+.card-title{
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+
+hr{
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card-price{
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 3rem;
+}
+
+.card-benefits{
+  margin-bottom: 3rem;
+  
+}
+
+.card-benefits-box{
+  width: 100%;
+}
+
+.benefits{
+  margin-bottom: 1.5rem;
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.oneday-card{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgb(24, 24, 24);
+  border-radius: 20px;
+  flex-direction: column;
+  box-shadow: 2px 5px 34px 6px rgba(0,0,0,1);
+  align-items: center;
+}
+
+.oneday-card-texts{
+  width: 100%;
+}
+
+.btn-card{
+  background-color: var(--light-orange);
+  border-radius: 42px;
+  padding: 1rem 2.5rem;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  text-wrap: nowrap;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-card:hover{
+  background-color: rgba(139, 0, 139, 0.562);
+  transform: scale(1.1);
+}
+
+.btn-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.yearly-card{
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 5%;
+  background-color: rgb(24, 24, 24);
+  border-radius: 20px;
+  flex-direction: column;
+  box-shadow: 2px 5px 34px 6px rgba(0,0,0,1);
+}
+
+.monthly-card{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgba(3, 35, 122, 0.158);
+  border-radius: 20px;
+  flex-direction: column;
+  box-shadow: 2px 5px 34px 6px rgba(0,0,0,1);
+  align-items: center;
+  transform: scale(1.1);
+}
 
 
 /* Responsive for smaller device */
@@ -744,6 +877,7 @@ select > option{
 
 .join-btn{
   width: 100%;
+  font-size: 5.3vw;
 }
 
 .run-extra-img{
@@ -817,10 +951,64 @@ select > option{
 }
 
 .btn-calculate{
-  width: 53%;
+  width: 55vw;
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-size: 4.7vw;
+}
+/* BMI Calculator Ends here */
+
+/* Unique Section starts here */
+
+.pricing-title{
+  font-size: 7.9vw;
+}
+
+.card-title{
+  font-size: 8.14vw;
+  margin-top: 1rem;
+}
+
+.benefits{
+  font-size: 4.87vw;
+}
+
+.card-price{
+  font-size: 8.14vw;
+}
+
+.btn-card{
+  width: 57.01vw;
+  display: flex;
+  justify-content: center;
+  font-size: 4.7vw;
+}
+
+.pricing-cards{
+  flex-direction: column;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.oneday-card{
+  width: 100%;
+}
+
+.monthly-card{
+  width: 100%;
+  transform: scale(1);
+}
+
+.yearly-card{
+  width: 100%;
+}
+
+.btn-box{
+  margin-bottom: 1rem;
 }
 
 }
