@@ -179,6 +179,7 @@ a{
   color: white;
   cursor: pointer;
   text-wrap: nowrap;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .btn-download{
@@ -191,6 +192,7 @@ a{
   color: white;
   cursor: pointer;
   text-wrap: nowrap;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .banner-right{
@@ -374,6 +376,7 @@ a{
   cursor: pointer;
   text-wrap: nowrap;
   width: 35%;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .run-extra-img{
@@ -548,6 +551,7 @@ select > option{
   cursor: pointer;
   text-wrap: nowrap;
   width: 30%;
+  transition: background-color 0.3s, transform 0.3s;
 }
 /* BMI Calculator Ends here */
 
@@ -652,7 +656,7 @@ hr{
   transition: background-color 0.3s, transform 0.3s;
 }
 
-.btn-card:hover{
+.btn-card:hover, .btn-club:hover, .btn-club-small:hover, .btn-download:hover, .join-btn:hover, .btn-calculate:hover{
   background-color: rgba(139, 0, 139, 0.562);
   transform: scale(1.1);
 }
