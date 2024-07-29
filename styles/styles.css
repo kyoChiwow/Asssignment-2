@@ -1214,6 +1214,18 @@ hr{
   padding-right: 5%;
 }
 
+.footer-title{
+  font-size: 17.85vw;
+}
+
+.middle-title{
+  font-size: 8.16vw;
+}
+
+.list-names{
+  font-size: 5.86vw;
+}
+
 .footer-texts{
   flex-direction: column;
 }
@@ -1225,6 +1237,10 @@ hr{
 
 .footer-hr{
   width: 100%;
+}
+
+.footer-copyright{
+  font-size: 5.10vw;
 }
 /* Footer Style Ends here */
 }
