@@ -783,6 +783,63 @@ hr{
 }
 /* Meet our team ends here */
 
+/* Footer Section starts here */
+
+.footer-container{
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 5.5rem;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-texts{
+  margin-bottom: 5rem;
+  justify-content: space-around;
+}
+
+.footer-title{
+  font-size: 4.375rem;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--light-orange);
+  margin-bottom: 1.2rem;
+}
+
+.footer-left{
+  width: 30%;
+}
+
+.middle-title{
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 2.4rem;
+}
+
+.list-names{
+  list-style: none;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--light-white);
+  margin-bottom: 1.2rem;
+}
+
+.footer-hr{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 2.2rem;
+  width: 90%;
+}
+
+.footer-copyright{
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--light-white);
+}
+/* Footer style Ends here */
 
 /* Responsive for smaller device */
 
@@ -1150,6 +1207,26 @@ hr{
 }
 /* Meet our team ends here */
 
+/* Footer Styles Starts here */
+
+.footer-container{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.footer-texts{
+  flex-direction: column;
+}
+
+.footer-left{
+  width: 90%;
+  margin-bottom: 1.25rem;
+}
+
+.footer-hr{
+  width: 100%;
+}
+/* Footer Style Ends here */
 }
 
 
