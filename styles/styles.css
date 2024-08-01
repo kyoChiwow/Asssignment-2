@@ -754,36 +754,55 @@ hr{
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.img-1::before, .img-2::before, .img-3::before, .img-4::before ,.img-5::before, .img-6::before{
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+
+.img-1 > *, .img-2 > *, .img-3 > *, .img-4 > *, .img-5 > *, .img-6 > *{
+  z-index: 2;
 }
 .img-2{
   background-image: url(../images/trainer2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .img-3{
   background-image: url(../images/trainer3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .img-4{
   background-image: url(../images/trainer4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .img-5{
   background-image: url(../images/trainer5.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .img-6{
   background-image: url(../images/trainer6.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 /* Meet our team ends here */
 
@@ -844,6 +863,213 @@ hr{
   color: var(--light-white);
 }
 /* Footer style Ends here */
+
+/* Training and Exercise Starts here */
+
+.training-container{
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 6.25rem;
+}
+
+.training-title{
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.img-collage{
+  display: grid;
+  margin-top: 4rem;
+  grid-template-areas: 
+  "c1 c2 c2 c2 c2 c3"
+  "c4 c4 c4 c5 c6 c6"
+  ;
+}
+
+.img-box-1, .img-box-2, .img-box-1, .img-box-4, .img-box-5, .img-box-6{
+  width: 100%;
+  height: 25vh;
+}
+
+.img-box-title-1{
+  font-weight: 600;
+  top: 70%;
+  left: 3%;
+}
+
+.img-box-title-2{
+  color: white;
+  font-weight: 500;
+  top: 12%;
+  left: 3%;
+  width: 70%;
+}
+
+.img-box-title-1-small, .img-box-title-2-small, .img-box-title-4-small, .img-box-title-5-small{
+  display: none;
+}
+
+.img-box-title-4{
+  color: white;
+  font-weight: 500;
+  left: 45%;
+  top: 10%;
+}
+
+.img-box-title-3{
+  color: white;
+  top: 80%;
+  left: 2%;
+  font-weight: 500;
+}
+
+
+.img-box-title-5{
+  color: white;
+  top: 80%;
+  left: 5%;
+  font-weight: 500;
+}
+
+
+.img-box-1{
+  grid-area: c1;
+  background-image: url(../images/exercise1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  position: relative;
+}
+
+.img-box-1::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(6, 255, 210, 0.5);
+  z-index: 1;
+  position: absolute;
+}
+
+.img-box-1 > * {
+  position: relative;
+  z-index: 2;
+}
+.img-box-2{
+  grid-area: c2;
+  background-image: url(../images/exercise2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  position: relative;
+}
+
+.img-box-2::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.3);
+  z-index: 1;
+  position: absolute;
+}
+
+.img-box-2 > * {
+  position: relative;
+  z-index: 2;
+}
+
+.img-box-3{
+  grid-area: c3;
+  background-image: url(../images/exercise3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 103%;
+  position: relative;
+}
+
+.img-box-3::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
+}
+
+.img-box-3 > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+.img-box-4{
+  grid-area: c4;
+  background-image: url(../images/exercise4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 111%;
+  position: relative;
+}
+
+.img-box-4::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  position: absolute;
+}
+
+.img-box-4 > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+.img-box-5{
+  grid-area: c5;
+  background-image: url(../images/exercise5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  position: relative;
+}
+
+.img-box-5::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(66, 255, 0, 0.3);
+  z-index: 1;
+  position: absolute;
+}
+
+.img-box-5 > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+.img-box-6{
+  grid-area: c6;
+  background-image: url(../images/exercise6.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  position: relative;
+}
+
+.img-box-6::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 71, 255, 0.3);
+  z-index: 1;
+  position: absolute;
+}
+
+.img-box-6 > * {
+  position: relative;
+  z-index: 2;
+}
+
+
+
 
 /* Responsive for smaller device */
 
@@ -1247,6 +1473,74 @@ hr{
   font-size: 5.10vw;
 }
 /* Footer Style Ends here */
+
+/* Training and Exercise Styles here */
+
+.training-container{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.training-title{
+  font-size: 8.6vw;
+}
+
+.img-box-3, .img-box-6{
+  display: none;
+}
+
+.img-collage{
+  grid-template-areas: 
+  "c1 c1 c1 c2 c2"
+  "c4 c4 c5 c5 c5"
+  ;
+  grid-template-columns: 1.5fr .8fr .4fr 1.2fr 1.25fr;
+}
+
+.img-box-title-1, .img-box-title-2, .img-box-title-4, .img-box-title-5{
+  display: none;
+}
+
+.img-box-title-1-small{
+  color: white;
+  font-size: 4.08vw;
+  font-weight: 500;
+  top: 75%;
+  left: 3%;
+  display: block;
+}
+
+.img-box-title-2-small{
+  color: white;
+  display: block;
+  font-size: 4.08vw;
+  font-weight: 500;
+  top: 17%;
+  left: 15%;
+}
+
+.img-box-title-4-small, .img-box-title-5-small{
+  color: white;
+  display: block;
+  font-size: 4.08vw;
+  font-weight: 500;
+  top: 75%;
+  left: 10%;
+}
+
+.img-box-2{
+  background-size: 320%;
+  background-position: 70% 20%;
+}
+
+.img-box-4{
+  background-size: 300%;
+  background-position: 35% 10%;
+}
+.img-box-5{
+  background-size: 155%;
+  background-position: 70% 50%;
+}
 }
 
 
