@@ -1479,6 +1479,7 @@ hr{
 .training-container{
   padding-left: 4%;
   padding-right: 4%;
+  overflow-x: hidden;
 }
 
 .training-title{
@@ -1529,16 +1530,16 @@ hr{
 }
 
 .img-box-2{
-  background-size: 320%;
+  background-size: 320% 190%;
   background-position: 70% 20%;
 }
 
 .img-box-4{
-  background-size: 300%;
+  background-size: 300% 180%;
   background-position: 35% 10%;
 }
 .img-box-5{
-  background-size: 155%;
+  background-size: 155% 140%;
   background-position: 70% 50%;
 }
 }
