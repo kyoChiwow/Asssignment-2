@@ -1267,6 +1267,10 @@ hr{
   font-size: 5.3vw;
 }
 
+.join-btn:hover{
+  transform: scale(1.06);
+}
+
 .run-extra-img{
   width: 100%;
   height: 56.72vh;
